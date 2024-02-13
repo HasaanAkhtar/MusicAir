@@ -1,0 +1,33 @@
+nav {
+  height: 20vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  background-color: #f00808;
+  user-select: none;
+}
+nav div {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+nav .navigation {
+  flex-flow: row wrap;
+}
+nav .navigation a {
+  color: #000;
+  padding-right: 10px;
+  font-size: 1.1rem;
+}
+nav .navigation a:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 970px) {
+  nav {
+    display: none;
+  }
+}
+
+
